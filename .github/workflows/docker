@@ -4,3 +4,4 @@ RUN apk update
 RUN apk add curl
 RUN apk add vim
 RUN apk add git
+RUN docker build -t DevOps-training ./t
